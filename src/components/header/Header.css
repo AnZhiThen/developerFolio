@@ -2,8 +2,8 @@
 
 .header {
   background-color: #fff;
-  max-width: 100%;
-  padding: 15px 20px;
+  max-width: 90%;
+  padding: 20px 10px;
   margin: 0px auto;
 }
 
@@ -20,13 +20,14 @@
 .header li a {
   display: block;
   padding: 20px 20px;
-  color: black;
+  color: #007cb4;
   text-decoration: none;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #E6F2F8;
+  font-weight: bold;
 }
 
 .header .logo {
@@ -44,6 +45,10 @@
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
+  color: #007cb4
+}
+.header .logo-name:hover {
+  color: #005084
 }
 
 /* menu */

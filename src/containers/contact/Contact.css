@@ -1,9 +1,6 @@
 .contact-div-main {
     display: flex;
-}
-
-.contact-div-main > * {
-    flex: 1;
+    justify-content: space-between;
 }
 
 .contact-title {
@@ -39,11 +36,17 @@
     margin-top: 4rem;
 }
 
+.contact-image-div {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .contact-image-div > img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
-    margin-left: 1.5rem;
-    margin-top: -4rem;
+    margin-top: auto;
+    border: 10px solid #56abe6;
+    border-radius: 50%;
 }
 
 /* Media Query */
