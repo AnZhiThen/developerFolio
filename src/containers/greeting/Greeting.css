@@ -31,18 +31,18 @@
 }
 
 .greeting-text {
-  font-size: 70px;
-  line-height: 1.1;
+  font-size: 52px;
+  line-height: 62px;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 36px;
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
+  max-width: 90%;
+  max-height: 90%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
@@ -79,10 +79,10 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 42px;
   }
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 @media (max-width: 768px) {
@@ -90,7 +90,7 @@
     justify-content: space-around;
   }
   .greeting-text {
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
   }
   .greeting-text-p {

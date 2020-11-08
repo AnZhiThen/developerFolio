@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Then An Zhi",
-  title: "Hi all, I'm An Zhi",
+  username: "Then An Z hi",
+  greetingTitle: "Hi all, I'm An Zhi",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
@@ -16,7 +16,6 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/saadpasta",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
   gmail: "saadpasta70@gmail.com",
@@ -31,16 +30,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  skillsTitle: "I want to just live life xD",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
   ],
-
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "html-5",
@@ -83,19 +80,40 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
+
+// Your education background
+const educationInfo = {
+  viewEducation: true, // Set it to true to see education section
+  educationTitle: emoji("Education 🎓"),
+  schools: [
+    {
+      schoolName: "Nanyang Technological University",
+      logo: require("./assets/images/ntuLogo.png"),
+      subHeader: "Bachelor of Engineering (Computer Science)",
+      duration: "September 2017 - April 2019",
+      desc: "Participated in the research of XXX and published 3 papers.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Nanyang Polytechnic",
+      logo: require("./assets/images/nypLogo.png"),
+      subHeader: "Diploma in Information Technology",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ]
+    }
+  ]
+}
 
 // Your top 3 proficient stacks/tech experience
 
@@ -122,6 +140,7 @@ const techStack = {
 
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
+  experienceTitle: emoji("Work Experiences 💼"),
   experience: [
     {
       role: "Front-End Developer",  
@@ -135,14 +154,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",   
+      role: "Front-End Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-      role: "Software Engineer Intern",  
+      role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
@@ -181,10 +200,8 @@ const bigProjects = {
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achivementsCards: [
     {
       title: "Google Code-In Finalist",
@@ -218,7 +235,6 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-
   title: "Blogs",
   subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   viewBlogs: false,
@@ -241,7 +257,6 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
   talks: [
     {
       title: "Build Actions For Google Assistant",
@@ -253,7 +268,6 @@ const talkSection = {
 };
 
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -261,7 +275,6 @@ const podcastSection = {
   // Please Provide with Your Podcast embeded Link
   podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
 };
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
@@ -272,8 +285,6 @@ const contactInfo = {
 //Twitter Section
 
 const twitterDetails = {
-
   userName : "twitter"//Replace "twitter" with your twitter username without @
-  
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
